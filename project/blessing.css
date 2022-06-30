@@ -1,0 +1,161 @@
+*{
+    margin: 0%;
+    padding: 0;
+    font-family: sans-serif;
+}
+.main{
+    background-color: #c9c6bb;
+    height: 100vh;
+    padding: 20px;
+}
+.doc{
+    display: flex;
+}
+.doc header{
+    display: flex;
+    position: absolute;
+    right: 0;
+    padding-right: 20px;
+}
+.doc header p{
+    margin-left: 100px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+}
+.doc header p:hover{
+    color: crimson;
+}
+.line{
+    width: 35px;
+    padding-left: 100px;
+    cursor: pointer;
+}
+.line span:hover{
+    background-color: crimson;
+}
+.line span{
+    display: inline-block;
+    width: 50px;
+    height: 2px;
+    background-color: black;
+    margin-bottom: 8px;
+    cursor: pointer;
+}
+.logo{
+    font-weight: bold;
+    font-size: 24px;
+    cursor: pointer;
+}
+.logo:hover{
+    color: crimson;
+}
+.colum{
+    display: flex;
+}
+.img1 img{
+    height: 180px;
+    width: 180px
+}
+.box{
+    height: 20px;
+    width: 20px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    left: 13%;
+    top: 41%;
+}
+.box1{
+    height: 60px;
+    width: fit-content;
+    background-color: crimson;
+    color: white;
+    text-align: center;
+    padding: 30px 10px 10px 10px;
+    position: absolute;
+    left: 20%;
+    top: 60%;
+}
+.img2 img{
+    height: 360px;
+    width: 300px;
+    margin-left: 50px;
+}
+.colum{
+    margin-top: 5%;
+}
+.Build{
+    margin-left: -55px;
+}
+.Build p{
+    font-size: 54px;
+    font-weight: 600;
+}
+.Build span{
+    color: crimson;
+}
+.U{
+    margin-left: 95px;
+    margin-top: 50px;
+    font-size: 20px;
+}
+.contact{
+    margin-top: 100px;
+    margin-left: 95px;
+    font-size: 20px;
+    border-bottom: 2px dashed black;
+    width: 130px;
+}
+.row{
+    display: flex;
+    margin-top: 60px;
+}
+.num{
+    font-size: 50px;
+}
+.num span{
+    color: crimson;
+}
+.num p{
+    font-size: 15px;
+}
+.last p{
+   font-weight: 600;
+   border-bottom: 1px solid black;
+   border-top: 1px solid black;
+   line-height: 30px;
+   display: inline;
+}
+.last{
+    margin-left: 115px;
+    margin-top: 12px;
+}
+.bot{
+    background-color: crimson;
+    height: 80px;
+    width: 50px;
+    position: absolute;
+    right: 2%;
+}
+.A{
+    display: flex;
+}
+.arrow-1 {
+    width:50px;
+    height:30px;
+    display: flex;
+    margin-left: 10px;
+  }
+  .arrow-1:before {
+    content: "";
+    background: currentColor;
+    width:15px;
+    clip-path: polygon(0 10px,calc(100% - 15px) 10px,calc(100% - 15px) 0,100% 50%,calc(100% - 15px) 100%,calc(100% - 15px) calc(100% - 10px),0 calc(100% - 10px));
+    animation: a1 1.5s infinite linear;
+  }
+  @keyframes a1 {
+    90%,100%{flex-grow: 1}
+  }
